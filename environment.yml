@@ -19,7 +19,9 @@ dependencies:
   - scooby
   - simpeg
   - sympy
-
+  - pip
+  - pip:
+    - disba
 # solver
 # uncomment the next line if you are on an intel platform
 #  - pydiso # if on intel pc
