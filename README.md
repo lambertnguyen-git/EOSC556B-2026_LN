@@ -6,10 +6,11 @@ Run this project in your browser (no installation required) (through mybinder.or
 
 ## Repository Structure
 - `260322_MASWSim.ipynb`: main notebook for synthetic MASW forward modeling and inversion
-- `project_utils.py`: will contain the functions at code cleanup
-- `LNenvironment.yml`: conda environment
-- `test_project_util.py`: unit tests for helper functions (in progress)
 - `License`: standard license for use
+- `environment.yml`: conda environment (compatible with mybinder.org)
+- `project_utils.py`: will contain the functions at code cleanup (in progress since code is not finished)
+- `test_project_util.py`: unit tests for helper functions (in progress)
+
 > The main code is not ready. As such, the functions have not been pulled out into the project_util yet. 
 
 ## BACKGROUND 
