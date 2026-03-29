@@ -36,10 +36,12 @@ How can shear-wave velocity profiles be recovered from Rayleigh wave dispersion 
 ```bash
 git clone https://github.com/your-username/EOSC556B-2026_LN.git 
 cd EOSC556B-2026_LN 
+```
 2. Create and activate the environment:
 ```bash 
-Terminal: conda env create -f LNenvironment.yml 
-Terminal: conda activate eosc-556B
+conda env create -f LNenvironment.yml 
+conda activate eosc-556B
+```
 > WINDOWS USERS: you may have to adjust the environment file from python-mumps to -pydiso
 3. Run the main notebook: Open: 260322_MASWSim.ipynb 
 Run all cells from top to bottom 
