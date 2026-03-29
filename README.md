@@ -6,11 +6,16 @@ Terminal: git clone https://github.com/your-username/EOSC556B-2026_LN.git Termin
 2. Create and activate the environment: 
 Terminal: conda env create -f LNenvironment.yml 
 Terminal: conda activate eosc556b 
-***** WINDOWS USERS: you may have to adjust the environment file from python-mumps to -pydiso ***** 
+> WINDOWS USERS: you may have to adjust the environment file from python-mumps to -pydiso
 3. Run the main notebook: Open: 260322_MASWSim.ipynb 
 Run all cells from top to bottom 
-4. Expected output: Synthetic dispersion curve with noise 
->***** This project is in progress ****** Inverted Vs curves Observed vs Predicted Dispersion Curves Convergence Figure (Objective function) 
+4. Expected output: 
+Synthetic dispersion curve with noise 
+> This project is in progress  
+Inverted Vs curves 
+Observed vs Predicted Dispersion Curves 
+Convergence Figure (Objective function) 
+
 ## BACKGROUND 
 Multichannel Analysis of Surface Waves (MASW) is a geophysical method used to estimate shear wave velocity (Vs) profiles. Shear wave velocity is a proxy for soil stiffness and is widely used in geotechnical and earthquake engineering for site classification and assessment of seismic hazards such as liquefaction. MASW involves deploying an array of geophones at fixed intervals, generating surface waves (Rayleigh waves), recording wavefields and extracting dispersion curves. The dispersion curves are then inverted to estimate subsurface shear wave velocity profiles. 
 
