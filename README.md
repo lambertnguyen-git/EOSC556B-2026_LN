@@ -1,6 +1,7 @@
 # EOSC556B-2026_LN 
 ## Multichannel Analysis of Surface Waves (MASW) inversion for a synthetic multilayer system 
 
+Run this project in your browser (no installation required) (through mybinder.org):
 [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lambertnguyen-git/EOSC556B-2026_LN/main?urlpath=lab/tree/260322_MASWSim.ipynb)
 
 ## Repository Structure
