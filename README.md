@@ -1,5 +1,5 @@
 # EOSC556B-2026_LN 
-## Multichannel Analysis of Surface Waves (MASW) inversion for a synthetic 3-layer system 
+## Multichannel Analysis of Surface Waves (MASW) inversion for a synthetic multilayer system 
 
 ## Repository Structure
 - `260322_MASWSim.ipynb`: main notebook for synthetic MASW forward modeling and inversion
