@@ -6,6 +6,7 @@
 - `project_utils.py`: will contain the functions at code cleanup
 - `LNenvironment.yml`: conda environment
 - `test_project_util.py`: unit tests for helper functions (in progress)
+- `License`: standard license for use
 > The main code is not ready. As such, the functions have not been pulled out into the project_util yet. 
 
 ## BACKGROUND 
@@ -29,8 +30,11 @@ How can shear-wave velocity profiles be recovered from Rayleigh wave dispersion 
 
 ## USAGE 
 1. Clone the repository: 
-Terminal: git clone https://github.com/your-username/EOSC556B-2026_LN.git Terminal: cd EOSC556B-2026_LN 
-2. Create and activate the environment: 
+```bash
+git clone https://github.com/your-username/EOSC556B-2026_LN.git 
+cd EOSC556B-2026_LN 
+2. Create and activate the environment:
+```bash 
 Terminal: conda env create -f LNenvironment.yml 
 Terminal: conda activate eosc-556B
 > WINDOWS USERS: you may have to adjust the environment file from python-mumps to -pydiso

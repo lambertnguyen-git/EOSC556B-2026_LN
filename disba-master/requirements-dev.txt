@@ -1,6 +1,0 @@
-black
-docformatter
-invoke
-isort
-pytest
-pytest-cov
