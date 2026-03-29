@@ -1,4 +1,4 @@
-name: eosc-454
+name: eosc-556B
 channels:
   - conda-forge
 dependencies:
