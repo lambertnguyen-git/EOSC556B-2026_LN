@@ -26,10 +26,10 @@ How can shear-wave velocity profiles be recovered from Rayleigh wave dispersion 
 1. The model will be setup for a 2 layer system with thicknesses 5 m and 10 m. A half step is included. 
 2. Simpeg does not have a forward operator for MASW. There are several MASW forward operators that are avaialble for python. Two of hese include disba and pysurf96. disba was used for this initial run This is included within the environment file. 2a. Later, we will try pysurf96 as the forward operator to understand if there are differences with disba. disba: https://github.com/keurfonluu/disba 
 3. The model (and disba) is dependent on layer thicknesses, Vs, p-wave velocity (Vp), and density (rho).    
-    3a. We will keep the layer thicknesses and number of layers constant for this code swap. We will potentially vary these at a later stage. 
-    3b. We are working to solve Vs in this inversion. 
-    3c. Vp is typically 2x faster than Vs. We will keep this simplifying assumption to reduce the variables. 
-    3d. Density will also be kept constant for this code swap. The change in the density may lead to changes in the dispersion curves but this expected to be a low-sensitivity parameter. This may be adjusted at a later stage, but is a low priority. 
+- 3a. We will keep the layer thicknesses and number of layers constant for this code swap. We will potentially vary these at a later stage. 
+- 3b. We are working to solve Vs in this inversion. 
+- 3c. Vp is typically 2x faster than Vs. We will keep this simplifying assumption to reduce the variables. 
+- 3d. Density will also be kept constant for this code swap. The change in the density may lead to changes in the dispersion curves but this expected to be a low-sensitivity parameter. This may be adjusted at a later stage, but is a low priority. 
 4. We will apply the steepest descent gradient method to converge to the solution. Newton's method may be checked prior to the final presentation.
 
 ## USAGE 
