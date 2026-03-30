@@ -1,3 +1,22 @@
+# These are copied directly from main code and have not been adapted to be more general yet.
+
+def objective_function(beta, dpred, dobs, vs):
+    phi_d = np.sum((dpred - dobs)**2)
+    phi_m = np.sum(np.diff(vs)**2)
+    phi = phi_d + beta * phi_m
+
+    return phi, phi_d, phi_m
+
+def step_function(grad_vs1, grad_vs2, step_size, vs):
+    #for 2 shear wave velocity system
+    vs_new = [
+        max(vs_first[0] - step * grad_vs1, 0.05),
+        max(vs_first[1] - step * grad_vs2, 0.05),
+        vs_first[2]
+    ]
+    vp_new = [2*v for v in vs_new]
+    return vs_new, vp_new
+
 def plot_tikhonov_curves(beta_values, phid, phim, n_kernels=n_kernels, beta_index=0, ax=None): 
     if ax is None: 
         fig, ax = plt.subplots(1, 3, figsize=(12, 4)) 

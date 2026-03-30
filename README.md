@@ -4,7 +4,7 @@
 Run this project in your browser (no installation required) (through mybinder.org):
 [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lambertnguyen-git/EOSC556B-2026_LN/main?urlpath=lab/tree/260322_MASWSim.ipynb)
 
-## Repository Structure
+## REPOSITORY COMPONENTS
 - `260322_MASWSim.ipynb`: main notebook for synthetic MASW forward modeling and inversion
 - `License`: standard license for use
 - `environment.yml`: conda environment (compatible with mybinder.org)
@@ -35,12 +35,12 @@ How can shear-wave velocity profiles be recovered from Rayleigh wave dispersion 
 ## USAGE 
 1. Clone the repository: 
 ```bash
-git clone https://github.com/your-username/EOSC556B-2026_LN.git 
+git clone https://github.com/lambertnguyen-git/EOSC556B-2026_LN
 cd EOSC556B-2026_LN 
 ```
 2. Create and activate the environment:
 ```bash 
-conda env create -f LNenvironment.yml 
+conda env create -f environment.yml 
 conda activate eosc-556B
 ```
 > WINDOWS USERS: you may have to adjust the environment file from python-mumps to -pydiso
