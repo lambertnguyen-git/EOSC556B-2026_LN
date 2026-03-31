@@ -11,7 +11,7 @@ Run this project in your browser:
 - `project_utils.py`: will contain the functions at code cleanup (in progress since code is not finished)
 - `test_project_util.py`: unit tests for helper functions (in progress)
 
-> The main code is not ready. As such, the functions have not been pulled out into the project_util yet. 
+> This is a work in progress. As such, functions have not been pulled out of the main code for project_utils yet. 
 
 ## BACKGROUND 
 Multichannel Analysis of Surface Waves (MASW) is a geophysical method used to estimate shear wave velocity (Vs) profiles. Shear wave velocity is a proxy for soil stiffness and is widely used in geotechnical and earthquake engineering for site classification and assessment of seismic hazards such as liquefaction. MASW involves deploying an array of geophones at fixed intervals, generating surface waves (Rayleigh waves), recording wavefields and extracting dispersion curves. The dispersion curves are then inverted to estimate subsurface shear wave velocity profiles. 
@@ -60,3 +60,6 @@ Convergence Figure (Objective function)
 - Check sensitivities for density, Vp
 - Try Newton method
 - Check pysurf96 (another forward operator) differences
+
+## ARTIFICIAL INTELLIGENCE USE
+AI tools, including the built-in AI assistant for VS Code, were used to troubleshoot coding issues.
