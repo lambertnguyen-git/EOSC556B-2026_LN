@@ -5,7 +5,7 @@ Run this project in your browser:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lambertnguyen-git/EOSC556B-2026_LN/main?urlpath=%2Fdoc%2Ftree%2FMASW_Sim.ipynb)
 
 ## REPOSITORY COMPONENTS
-- `MASWSim.ipynb`: main notebook for synthetic MASW forward modeling and inversion
+- `MASW_Sim.ipynb`: main notebook for synthetic MASW forward modeling and inversion
 - `License`: standard license for use
 - `environment.yml`: conda environment (compatible with mybinder.org)
 - `project_utils.py`: will contain the functions at code cleanup (in progress since code is not finished)
@@ -44,7 +44,7 @@ conda env create -f environment.yml
 conda activate eosc-556B
 ```
 > WINDOWS USERS: you may have to adjust the environment file from python-mumps to -pydiso
-3. Run the main notebook: Open: MASWSim.ipynb 
+3. Run the main notebook: Open: MASW_Sim.ipynb 
 Run all cells from top to bottom 
 4. Expected output: 
 Synthetic dispersion curve with noise 
