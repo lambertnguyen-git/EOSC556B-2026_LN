@@ -1,11 +1,11 @@
 # EOSC556B-2026_LN 
 ## Multichannel Analysis of Surface Waves (MASW) inversion for a synthetic multilayer system 
 
-Run this project in your browser (no installation required) (through mybinder.org):
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lambertnguyen-git/EOSC556B-2026_LN/main?urlpath=lab/tree/260322_MASWSim.ipynb)
+Run this project in your browser:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lambertnguyen-git/EOSC556B-2026_LN/main?urlpath=%2Fdoc%2Ftree%2FMASW_Sim.ipynb)
 
 ## REPOSITORY COMPONENTS
-- `260322_MASWSim.ipynb`: main notebook for synthetic MASW forward modeling and inversion
+- `MASWSim.ipynb`: main notebook for synthetic MASW forward modeling and inversion
 - `License`: standard license for use
 - `environment.yml`: conda environment (compatible with mybinder.org)
 - `project_utils.py`: will contain the functions at code cleanup (in progress since code is not finished)
@@ -44,11 +44,19 @@ conda env create -f environment.yml
 conda activate eosc-556B
 ```
 > WINDOWS USERS: you may have to adjust the environment file from python-mumps to -pydiso
-3. Run the main notebook: Open: 260322_MASWSim.ipynb 
+3. Run the main notebook: Open: MASWSim.ipynb 
 Run all cells from top to bottom 
 4. Expected output: 
 Synthetic dispersion curve with noise 
-> This project is in progress so these plots may not be ready:
 Inverted Vs curves 
 Observed vs Predicted Dispersion Curves 
+> This project is in progress so these plots may not be ready:
 Convergence Figure (Objective function) 
+
+## NEXT STEPS
+> These are some ideas for next steps. Only some of them will be implemented
+- Check noise sensitivity
+- Add more soil layers
+- Check sensitivities for density, Vp
+- Try Newton method
+- Check pysurf96 (another forward operator) differences
